@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "What is \"JSX\" in React?",
+      "options": [
+        "A) JavaScript Extension",
+        "B) Java Syntax Extension",
+        "C) JavaScript XML",
+        "D) Java Source XML"
+      ],
+      "correctAnswer": "C) JavaScript XML"
+    },
+    {
+      "question": "Which of the following is the correct way to create a component in React?",
+      "options": [
+        "A) class MyComponent extends React.Component {}",
+        "B) function MyComponent() {}",
+        "C) const MyComponent = () => {}",
+        "D) All of the above"
+      ],
+      "correctAnswer": "D) All of the above"
+    },
+    {
+      "question": "What is the purpose of keys in React lists?",
+      "options": [
+        "A) To enhance performance",
+        "B) To uniquely identify each element in the list",
+        "C) To track changes in the list",
+        "D) Both B and C"
+      ],
+      "correctAnswer": "D) Both B and C"
+    },
+    {
+      "question": "In React, what is used to pass data to a component from outside?",
+      "options": [
+        "A) setState",
+        "B) render",
+        "C) props",
+        "D) PropTypes"
+      ],
+      "correctAnswer": "C) props"
+    },
+    {
+      "question": "Which lifecycle method is called when a component is being removed from the DOM?",
+      "options": [
+        "A) componentDidMount",
+        "B) componentWillUnmount",
+        "C) componentDidUpdate",
+        "D) componentWillMount"
+      ],
+      "correctAnswer": "B) componentWillUnmount"
+    },
+    {
+      "question": "What does the useState hook do in a functional component?",
+      "options": [
+        "A) Connects the component to a Redux store",
+        "B) Adds local state to the component",
+        "C) Fetches data from an API",
+        "D) Manages the components lifecycle events"
+      ],
+      "correctAnswer": "B) Adds local state to the component"
+    },
+    {
+      "question": "In React, what is a higher-order component (HOC)?",
+      "options": [
+        "A) A component that renders other components",
+        "B) A function that takes a component and returns a new component",
+        "C) A class that inherits from another class component",
+        "D) A component that passes props to its children"
+      ],
+      "correctAnswer": "B) A function that takes a component and returns a new component"
+    },
+    {
+      "question": "How do you access a function fetch() from a <CustomButton /> component in its parent component?",
+      "options": [
+        "A) By using refs",
+        "B) By using props",
+        "C) By using state",
+        "D) By using the context API"
+      ],
+      "correctAnswer": "A) By using refs"
+    },
+    {
+      "question": "Which hook is used in functional React components to perform side effects?",
+      "options": [
+        "A) useEffect",
+        "B) useState",
+        "C) useReducer",
+        "D) useContext"
+      ],
+      "correctAnswer": "A) useEffect"
+    },
+    {
+      "question": "How can you prevent a component from rendering in React?",
+      "options": [
+        "A) Return false from the render method",
+        "B) Return null from the render method",
+        "C) Set the state to null",
+        "D) Use the shouldComponentUpdate lifecycle method"
+      ],
+      "correctAnswer": "B) Return null from the render method"
+    }
+  ]
+}
