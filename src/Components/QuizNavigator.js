@@ -8,9 +8,9 @@ function QuizNavigation({
   isOptionSelected 
 }) {
   return (
-    <div  style={{  display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Button
-      style={{backgroundColor: 'lightgray'}}
+        style={{ backgroundColor: 'lightgray' }}
         onClick={goToNextQuestion} 
         disabled={!isOptionSelected}
       >
@@ -21,3 +21,4 @@ function QuizNavigation({
 }
 
 export default QuizNavigation;
+

@@ -5,17 +5,19 @@ function QuestionDisplay({ question, selectedAnswer, handleOptionSelect }) {
   return (
     <div>
       <h2 style={{color: 'white'}}>{question.question}</h2>
-      <ul >  
+
+      <ul>  
         {question.options.map((option, index) => (
-          <li key={index} style={{color: 'white'}}>
+          <div key={index} style={{color: 'white'}}>
             <Option
               option={option}
               isSelected={selectedAnswer === option}
               handleOptionSelect={() => handleOptionSelect(option)}
             />
-          </li>
+          </div>
         ))}
       </ul>
+
     </div>
   );
 }
