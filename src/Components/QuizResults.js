@@ -55,7 +55,7 @@ function QuizResults({ questions, userAnswers }) {
   const [wrongCount, setWrongCount] = useState(0);
 
   useEffect(() => {
-    calculateScore();
+    [calculateScore]();
   }, []);
 
   const calculateScore = () => {

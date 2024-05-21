@@ -82,7 +82,7 @@ function QuizController() {
 
   useEffect(() => {
     if (timeLeft === 0) {
-      goToNextQuestion();
+      [goToNextQuestion]();
     }
 
     const timer = setInterval(() => {
